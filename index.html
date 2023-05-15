@@ -5,12 +5,31 @@
     <link rel="stylesheet" href="schedule.css">
     <style>
         body{background-color: rgb(240, 220, 180);}
+        .menu-content {background-color: rgb(240, 220, 180);}
+        .menu-btn {background-color: rgb(240, 220, 180);}
     </style>
     <title>時間割</title>
 </head>
 <body>
-    <h1>Moodle</h1>
 
+    <header>
+        <h1><a href="index.html"><img src="img/moodle_logo.svg" width="400px" height="100px"></a></h1>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check" value="">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="index.html">トップページ</a>
+                    </li>
+                    <li>
+                        <a href="syllabus.html">シラバス</a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </header>
     
     <table border="1">
             <tr>
@@ -63,8 +82,10 @@
             </tr>
     </table>
     
-    <h3><a href ="syllabus.html">→シラバスリンク</a></h3>
-    <h3><a href ="https://kmags.wakayama-u.ac.jp/campusweb/campusportal.do?page=main">→教育サポートシステム</a></h3>
+    <footer>
+        <h3><a href ="syllabus.html">→シラバスリンク</a></h3>
+        <h3><a href ="https://kmags.wakayama-u.ac.jp/campusweb/campusportal.do?page=main">→教育サポートシステム</a></h3>
+    </footer>
 
 </body>
 </html>

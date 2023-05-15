@@ -4,13 +4,34 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="schedule.css">
     <style>
-        body{background-color: rgb(180, 200, 160);
-        }
+        body{background-color: rgb(180, 200, 160);}
+        .menu-content {background-color: rgb(180, 200, 160);}
+        .menu-btn {background-color: rgb(180, 200, 160);}
+        h1{color: green;}
     </style>
     <title>時間割</title>
 </head>
 <body>
-    <h1>シラバス</h1>
+
+    <header>
+        <h1><a href="syllabus.html"><img src="img/syllabus_logo.png" width="" height="">シラバス</h1></a>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check" value="">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="syllabus.html">トップページ</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Moodle</a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </header>
+
     <table border="1">
             <tr>
                 <th>＼</th>
